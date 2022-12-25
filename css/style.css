@@ -1,0 +1,137 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 57px;
+}
+
+.header__logo {
+    font-size: 85px;
+    margin: 24px 0px 0px 0px;
+    font-weight: 400;
+}
+
+.write__words {
+    display: flex;
+}
+
+.txt__section {
+    display: flex;
+}
+
+textarea {
+    outline: none;
+    border: 2px solid #000000;
+    font-size: 21px;
+    margin-top: 25px;
+    border-radius: 15px;
+    resize: none;
+    width: 930px;
+    height: 693px;
+}
+
+.line__text {
+    width: 2px;
+    height: 499px;
+    border-radius: 1px;
+    background-color: #000000;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+}
+   
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: darkgrey;
+}
+
+
+.btn__section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.save__button {
+    font-family: 'IBM Plex Mono';
+    width: 350px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 61px;
+    text-transform: uppercase;
+    transition: .2s ease;
+}
+
+.save__button:hover {
+    background-color: #14A71A;
+    color: #FFFFFF;
+}
+
+.number__words {
+    margin-left: 68px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.amount__section {
+    width: 240px;
+    height: 80px;    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number__amount {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.color__save__section {
+    margin-top: 25px;
+    margin-left: 23px;
+}
+
+.color__save__section {
+    border: 2px solid #000000;
+    width: 890px;
+    height: 693px;
+}
+
+.color__save {
+    width: 890px;
+    height: 693px;
+}
+
+.color__save {
+    overflow-y: scroll;
+}
+
+.note__list {
+    max-width: 40px;
+    height: 40px;
+    background-color: rgb(255, 136, 136);
+
+    color: #FFFFFF;
+}

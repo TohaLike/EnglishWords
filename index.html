@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="header__logo">Describe your day!</h1>
+        </header>
+
+        <article>
+
+            <div class="write__words">
+                <div class="write__section">
+                    <div class="txt__section">
+                        <textarea name="textEnglish"
+                        id="text__english" cols="30" rows="10"></textarea>
+                        <div class="line__text"></div>
+                    </div>
+                    
+                    <div class="btn__section">
+                        <button class="save__button">Save</button>
+                        <p class="number__words">Number of new words:</p>
+
+                        <div class="amount__section">
+                            <div class="number__amount">0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="color__save__section">
+                    <div class="color__save">
+                        <div class="note__block"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </article>
+
+        
+
+
+
+
+        
+
+    </div>
+
+    <script>
+        require('./render.js');
+    </script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
