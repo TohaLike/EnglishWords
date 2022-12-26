@@ -29,8 +29,6 @@ textarea {
     margin-top: 25px;
     border-radius: 15px;
     resize: none;
-    /* width: 930px;
-    height: 693px; */
 }
 
 .line__text {
@@ -74,7 +72,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .save__button:hover {
-    background-color: #14A71A;
+    background-color: #525252;
     color: #FFFFFF;
 }
 
@@ -126,9 +124,22 @@ textarea::-webkit-scrollbar-thumb {
 
 .color__save {
     overflow-y: scroll;
+    overflow: auto;
 }
 
+.color__save::-webkit-scrollbar {
+    width: 0px;
+}
+   
+.color__save::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: darkgrey;
+}
+
+
+
 .note__list__main {
+    word-wrap: break-word;
     max-width: 100%;
     border: 2px solid rgb(57, 40, 211);
     color: #000000;
