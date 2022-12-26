@@ -11,5 +11,13 @@
   "dependencies": {
     "electron": "^22.0.0",
     "normalize.css": "^8.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TohaLike/EnglishWords.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TohaLike/EnglishWords/issues"
+  },
+  "homepage": "https://github.com/TohaLike/EnglishWords#readme"
 }

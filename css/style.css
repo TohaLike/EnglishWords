@@ -29,8 +29,8 @@ textarea {
     margin-top: 25px;
     border-radius: 15px;
     resize: none;
-    width: 930px;
-    height: 693px;
+    /* width: 930px;
+    height: 693px; */
 }
 
 .line__text {
@@ -128,10 +128,8 @@ textarea::-webkit-scrollbar-thumb {
     overflow-y: scroll;
 }
 
-.note__list {
-    max-width: 40px;
-    height: 40px;
-    background-color: rgb(255, 136, 136);
-
-    color: #FFFFFF;
+.note__list__main {
+    max-width: 100%;
+    border: 2px solid rgb(57, 40, 211);
+    color: #000000;
 }
